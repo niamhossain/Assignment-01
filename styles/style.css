@@ -85,3 +85,34 @@ body{
     line-height: 24px;
     font-size: 18px;
 }
+.cards-container{
+    display: flex;
+    align-items: center;
+    margin: 44px 120px 0px 120px;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: center;
+}
+.card{
+    box-shadow: 0px 0px 8px 0px #0000000e;
+    height: 300px;
+}
+.img-bg{
+    margin-top: 70px;
+    background-color: #F95555;
+    border: 5px solid #F95555;
+    border-radius: 50%;
+}
+.card h3,p{
+    padding: 8px 12px;
+}
+.note-items{
+    text-align: center;
+}
+.note-items h1{
+    margin-top: 64px;
+}
+.note-items p{
+    color: #627382;
+    padding-top: 16px;
+}
