@@ -116,3 +116,26 @@ body{
     color: #627382;
     padding-top: 16px;
 }
+.knowledge{
+    display: flex;
+    margin: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.green-med{
+    color: #30B868;
+    font-weight: 500;
+}
+.knowledgeitem{
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+}
+.knowledgeitem p,h1,ul li{
+    padding-left: 0px;
+    padding-bottom: 16px;
+}
+.knowledgeitem ul{
+    padding-top: 24px;
+    padding-left: 0px;
+}
+
