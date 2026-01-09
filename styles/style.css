@@ -122,7 +122,7 @@ body{
     gap: 60px;
     align-items: center;
 }
-.green-med{
+#green-med{
     color: #30B868;
     font-weight: 500;
 }
@@ -130,12 +130,42 @@ body{
     padding: 0px 0px 0px 0px;
     text-align: left;
 }
-.knowledgeitem p,h1,ul li{
+.knowledgeitem p,.knowledgeitem h1,.knowledgeitem ul li{
     padding-left: 0px;
     padding-bottom: 16px;
+    width: 70%;
+}
+.knowledgeitem h1{
+    font-size: 48px;
 }
 .knowledgeitem ul{
     padding-top: 24px;
     padding-left: 0px;
 }
-
+.knowledgeitem p{
+    line-height: 20px;
+    color: #627382;
+}
+.challenge{
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+.challenge-items h1, .challenge-items p, .challenge-items ul{
+    margin: 0px auto;
+    text-align: center;
+}
+.challenge-items ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.challenge-items h1{
+    font-size: 40px;
+}
+.challenge-items p, .challenge-items ul li{
+    font-size: 16px;
+    color: #627382;
+}
