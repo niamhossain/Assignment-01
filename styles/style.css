@@ -33,7 +33,7 @@ body{
 }
 .banner{
     width: 100%;
-    background-image: url(../assets/hero-bg.png);
+    background-image: linear-gradient(rgba(0, 25, 49, 0.164),rgba(0, 25, 49, 0.164)), url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 674px;
@@ -102,7 +102,7 @@ body{
 .img-bg{
     margin-top: 70px;
     background-color: #F95555;
-    border: 5px solid #F95555;
+    padding: 14px;
     border-radius: 50%;
 }
 .card h3,p{
